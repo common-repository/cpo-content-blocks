@@ -1,0 +1,17 @@
+= 1.2.0 =
+* The plugin  has been rebranded as Infuse. This plugin will be no longer updated, so you can transition to Infuse instead. No additional steps are required besides changing plugins.
+
+= 1.1.1 =
+* Minor fixes
+
+= 1.1.0 =
+* Features - Revamped the location interface. You can now select from a long list of hooks, organized by framework and plugin
+* Features - Added indvidual fields for managing the margin and padding of blocks
+
+= 1.0.1 =
+* Fixes - Added plugin icon
+* Fixes - Added hooks to each content block
+* Fixes - Added better interface to admin
+
+= 1.0.0 =
+* Plugin release, yay!

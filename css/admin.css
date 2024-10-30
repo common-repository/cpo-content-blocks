@@ -1,0 +1,52 @@
+/* --------------------------------------------------------------
+1. PLUGIN SETTINGS PAGE
+-------------------------------------------------------------- */
+/* Metaboxes */
+.ctcb-metabox { overflow:hidden; margin:20px 10px; }
+.ctcb-metabox .name { float:left; width:150px; padding:5px 0px; font-family:Century Gothic, Verdana, Arial; font-weight:bold; }
+.ctcb-metabox .field { margin-left:180px; max-width:340px; min-width:200px; }
+.ctcb-metabox .desc { float:left; margin:6px 0px 0px 180px; clear:both; color:#666; font-size:11px; font-weight:normal; }
+.ctcb-metabox-wide .field { max-width:none; }
+/* Aside metaboxes */
+#side-sortables .ctcb-metabox .name { float:none; width:auto; }
+#side-sortables .ctcb-metabox .desc { float:none; max-width:100%; min-width:0; margin-left:0; }
+#side-sortables .ctcb-metabox .field { margin-left:0; }
+
+.ctcb-metabox input[type=text] { width:95%; }
+.ctcb-metabox label { display:block; margin:0 0 5px; }
+.ctcb-metabox input[type=upload] { width:70%; }
+.ctcb-metabox input.color { width:70px; }
+.ctcb-metabox textarea { font-family:monospace; width:95%; height:100px; max-height:350px; min-height:100px; resize:vertical; }
+.ctcb-metabox select { width:95%; }
+.ctcb-metabox option:disabled { background:#ddd; font-weight:bold; padding:5px 0; }
+
+/* Columns in posts table */
+.column-ctcb-location,
+.column-ctcb-filters,
+.column-ctcb-pages { width:150px; }
+
+
+/* Shortcode preview */
+.ctcb-shortcode-preview { margin:15px 0; font-size:14px; }
+.ctcb-shortcode-preview-content { font-family:monospace; padding:10px; margin:5px 0 0; font-size:14px; border:none; cursor:pointer; }
+
+
+/* Location */
+.ctcb-input-location { padding:10px 20px; font-size:18px; margin:0 0 10px; width:400px; }
+.ctcb-input-priority { padding:10px 20px; font-size:18px; margin:0 0 10px 20px; width:150px; }
+
+/* Tabs */
+.ctcb-tabs { border:1px solid #ddd; overflow:hidden; }
+.ctcb-tab-menu { float:left; width:280px; height:300px; overflow:auto; border-right:1px solid #ddd; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+.ctcb-tab { padding:10px; border-bottom:1px solid #ddd; cursor:pointer; }
+.ctcb-tab.ctcb-tab-active { background:#07a; color:#fff; }
+.ctcb-tab-title { font-weight:bold; font-size:12px; }
+.ctcb-tab-description { font-size:10px; }
+.ctcb-tab-image { display:block; float:left; width:32px; height:32px; border-radius:50px; margin:0 10px 0 0; }
+.ctcb-tab-body { margin-left:280px; height:300px; overflow:auto; background:#f9f9f9; }
+.ctcb-tab-group { display:none; }
+.ctcb-tab-content { border-bottom:1px solid #ddd; padding:8px 10px; cursor:pointer; }
+.ctcb-tab-content:hover { background:#eee; }
+.ctcb-tab-content-title { font-weight:bold; font-size:14px; }
+.ctcb-tab-content-description { font-size:12px; opacity:0.6; }
+.ctcb-tab-active { display:block; }

@@ -1,0 +1,39 @@
+/*
+Main Stylesheet
+Defines the styles that control block appearance
+*/
+
+
+/* CONTENT BLOCKS */
+.ctcb-block { padding:10px 0; }
+.ctcb-container { max-width:960px; width:auto; overflow:hidden; padding:0 20px; margin:0 auto; }
+.ctcb-block .ctcb-container > *:last-child { margin-bottom:0; }
+
+/* DARK CONTENT */
+body .ctcb-dark { color:#eee; }
+body .ctcb-dark h1, 
+body .ctcb-dark h2, 
+body .ctcb-dark h3, 
+body .ctcb-dark h4, 
+body .ctcb-dark h5, 
+body .ctcb-dark h6, 
+body .ctcb-dark a:link, 
+body .ctcb-dark a:visited,
+body .ctcb-dark a:hover { color:#fff; }
+
+/* Larger Screens */
+@media screen and (min-width: 1280px){
+	.ctcb-container { max-width:1180px; }
+}
+
+
+/* Tablet Portrait */
+@media only screen and (max-width:800px){
+	.ctcb-container { padding:0 20px; }
+}
+
+
+/* SMARTPHONE */
+@media only screen and (max-width:600px){
+	.ctcb-container { padding:0 10px; }
+}
